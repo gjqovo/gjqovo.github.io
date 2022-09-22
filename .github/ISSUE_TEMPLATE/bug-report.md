@@ -3,7 +3,6 @@ name: "\U0001F41B Bug Report"
 about: As a User, I want to report a Bug.
 labels: type/bug
 ---
-
 ## Bug Report
 
 Please answer these questions before submitting your issue. Thanks!
