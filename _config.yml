@@ -21,9 +21,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 宜有阁                          # the main title
+title: 就是Van                         # the main title
 
-tagline: 左之左之，君子宜之；<br/>右之右之，君子有之。   # it will display as the sub-title
+tagline: 学与不学反复横跳   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A personal blog.
@@ -39,7 +39,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 卡夫卡的K
+  name: Gjq
   email: 2410221639@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -109,7 +109,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    #enabled: true # boolean, keep empty means false
+    enabled: true # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
