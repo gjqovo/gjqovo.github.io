@@ -1,11 +1,8 @@
 ---
-layout: About
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
 
 > 喜欢养猫，追剧，沙盒、像素爱好者
 
