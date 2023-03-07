@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DST MOD"
-author: G_ovo
+author: Gjq
 date: 2023-3-3 22:49:12 +0800
 categories: learn DST MOD Lua
 tags: [DST, MOD, Lua]
