@@ -15,6 +15,7 @@ tabs:
   tags: 标签
   archives: 归档
   about: 关于
+  labs: 实验
 
 # the text displayed in the search bar & search results
 search:
@@ -71,13 +72,6 @@ post:
       succeed: 链接已复制！
   # pinned prompt of posts list on homepage
   pin_prompt: 顶置
-
-# Date time format.
-# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
-df:
-  post:
-    strftime: '%Y/%m/%d'
-    dayjs: 'YYYY/MM/DD'
 
 # categories page
 categories:
