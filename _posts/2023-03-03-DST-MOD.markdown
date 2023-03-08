@@ -67,10 +67,10 @@ print("hello world")
 
 因为上面在modinfo.lua里定义的时候是客户端mod `client_only_mod = true` 所以这个mod就会出现在`本地模组`里
 
-![](../images/DST/20210722160828.png)
+![](/images/DST/20210722160828.png)
 
 ### 启动游戏
 
 因为这个mod是客户端mod，所以日志文件在 `C:/Users/{你的用户名}/Documents/Klei/DoNotStarveTogether/client_log.txt` 里，如下图
 
-![](../images/DST/20210722163126.png)
+![](/images/DST/20210722163126.png)
