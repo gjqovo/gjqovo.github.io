@@ -2,7 +2,7 @@
 layout: post
 title:  "Python中的对象"
 date: 2022-09-14 01:31:55 +0800
-categories: learn python
+categories: [learn python]
 tags: [Python, 编程]
 ---
 
@@ -50,7 +50,7 @@ Python被广泛认为是强类型的，其原因大概有如下几条：
 Python也被广泛认为是动态类型的，其原因大概有如下几条：
 
 1. Python的名称（详见下文）可以换绑不同类型的对象。
-2. Python在运行时会进行动态类型检查。 
+2. Python在运行时会进行动态类型检查。
 
 同样以Python的标准实现CPython为基准。
 
@@ -95,7 +95,7 @@ Python中，对象可以依照可变性分为两类：可变对象和不可变�
 在[官方文档](https://docs.python.org/3/glossary.html)中，可变性的定义如下：
 
 > immutable
-> 
+>
 > An object with a fixed value. Immutable objects include numbers, strings and tuples. Such an object cannot be altered. A new object has to be created if a different value has to be stored. They play an important role in places where a constant hash value is needed, for example as a key in a dictionary.
 
 
