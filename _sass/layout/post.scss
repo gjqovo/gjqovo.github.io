@@ -219,7 +219,8 @@ h1 + .post-meta {
   border-left: 1px solid rgba(158, 158, 158, 0.17);
   position: -webkit-sticky;
   position: sticky;
-  top: 4rem;
+  top: 3rem;
+  margin-top: 3rem;
   transition: top 0.2s ease-in-out;
   -webkit-animation: fade-up 0.8s;
   animation: fade-up 0.8s;

@@ -11,11 +11,11 @@ export function categoryCollapse() {
     /* Bootstrap collapse events. */ const parentId =
       parentPrefix + $(this).attr('id').substring(childPrefix.length);
     if (parentId) {
-      $(`#${parentId} .far.fa-folder-open`).attr(
+      $(`#${parentId} .iconfont.icon-FolderOpen-1`).attr(
         'class',
-        'far fa-folder fa-fw'
+        'iconfont icon-folder'
       );
-      $(`#${parentId} i.fas`).addClass('rotate');
+      $(`#${parentId} i.ifrot`).addClass('rotate');
       $(`#${parentId}`).removeClass('hide-border-bottom');
     }
   });
@@ -25,11 +25,11 @@ export function categoryCollapse() {
     const parentId =
       parentPrefix + $(this).attr('id').substring(childPrefix.length);
     if (parentId) {
-      $(`#${parentId} .far.fa-folder`).attr(
+      $(`#${parentId} .iconfont.icon-folder`).attr(
         'class',
-        'far fa-folder-open fa-fw'
+        'iconfont icon-FolderOpen-1'
       );
-      $(`#${parentId} i.fas`).removeClass('rotate');
+      $(`#${parentId} i.ifrot`).removeClass('rotate');
       $(`#${parentId}`).addClass('hide-border-bottom');
     }
   });

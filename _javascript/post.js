@@ -4,7 +4,12 @@ import {
   imgPopup,
   initLocaleDatetime,
   initClipboard,
-  toc
+  toc,
+  highlightLines,
+  runCpp,
+  runJavascript,
+  runPython,
+  runRust
 } from './modules/plugins';
 
 initSidebar();
@@ -15,3 +20,8 @@ initLocaleDatetime();
 initClipboard();
 toc();
 basic();
+highlightLines();
+runCpp();
+runJavascript();
+runPython();
+runRust();

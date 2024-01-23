@@ -6,8 +6,8 @@
  *   - clipboard.js (https://github.com/zenorocha/clipboard.js)
  */
 
-const clipboardSelector = '.code-header>button';
-const ICON_SUCCESS = 'fas fa-check';
+const clipboardSelector = '.code-header>button.button-copy';
+const ICON_SUCCESS = 'iconfont icon-check';
 const ATTR_TIMEOUT = 'timeout';
 const ATTR_TITLE_SUCCEED = 'data-title-succeed';
 const ATTR_TITLE_ORIGIN = 'data-bs-original-title';

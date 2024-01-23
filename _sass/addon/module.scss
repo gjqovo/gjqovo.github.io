@@ -192,9 +192,9 @@
     background-color: var(--prompt-#{$type}-bg);
 
     &::before {
-      content: $fa-content;
+      content: $iconfont-content;
       color: var(--prompt-#{$type}-icon-color);
-      font: var(--fa-font-#{$fa-style});
+      font-weight: $icon-weight;
     }
   }
 }

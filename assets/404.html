@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "404: Page not found"
+title: "{{ site.data.locales[site.lang].not_found.title }}"
 permalink: /404.html
 
 redirect_from:
-  - /norobots/
-  - /assets/
-  - /posts/
+- /norobots/
+- /assets/
+- /posts/
+
+no_title: true
 ---
 
 {% include lang.html %}
