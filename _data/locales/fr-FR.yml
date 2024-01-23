@@ -15,7 +15,6 @@ tabs:
   tags: Tags
   archives: Archives
   about: A propos de
-  labs: Laboratoires
 
 # the text displayed in the search bar & search results
 search:
@@ -71,8 +70,6 @@ post:
     share_link:
       title: Copier le lien
       succeed: Lien copié avec succès !
-  # pinned prompt of posts list on homepage
-  pin_prompt: Épinglé
 
 # categories page
 categories:
