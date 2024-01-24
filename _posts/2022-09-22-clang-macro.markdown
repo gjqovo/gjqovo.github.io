@@ -3,7 +3,7 @@ layout: post
 title:  "C语言：宏"
 author: me
 date:   2022-09-22 00:47:35 +0800
-categories: [Language C Learn]
+categories: [Language, C, Learn]
 tags: [C语言, 编程]
 ---
 
