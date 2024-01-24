@@ -4,7 +4,7 @@ title:  "Go：函数"
 author: Gjq
 date:   2022-09-19 23:46:16 +0800
 categories: [Language, Go, Learn]
-tags: [Go语言, 编程]
+tags: [go语言, 编程]
 ---
 ## 引言
 

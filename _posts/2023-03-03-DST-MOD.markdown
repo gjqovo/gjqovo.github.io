@@ -4,7 +4,7 @@ title:  "DST MOD"
 author: Gjq
 date: 2023-3-3 22:49:12 +0800
 categories: [DST, MOD]
-tags: [DST, MOD, Lua]
+tags: [dst, mod, lua]
 ---
 
 本文主要记录饥荒联机版MOD制作过程以及LUA程序设计语言的学习过程。
