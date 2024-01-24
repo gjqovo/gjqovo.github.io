@@ -3,7 +3,7 @@ layout: post
 title: Go：Hello, 世界"
 author: Gjq
 date: 2022-09-07 20:51:14 +0800
-categories: [Language, Go, learn]
+categories: [Language, "Go"]
 tags: [go语言, 编程]
 ---
 ## hello, world
