@@ -107,6 +107,8 @@ code {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  font-family: "Fira Code", "Microsoft Yahei", monospace;
+  font-variant-ligatures: none;
   color: var(--code-color);
 
   &.highlighter-rouge {

@@ -66,9 +66,18 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  a {
+    font-weight: normal;
+  }
+}
+
 img {
   max-width: 100%;
-  height: auto;
   transition: all 0.35s ease-in-out;
 
   .blur & {
@@ -110,10 +119,10 @@ blockquote {
     }
   }
 
-  @include prompt('tip', '\f0eb', 'regular');
-  @include prompt('info', '\f06a');
-  @include prompt('warning', '\f06a');
-  @include prompt('danger', '\f071');
+  @include prompt('tip', '\e608');
+  @include prompt('info', '\e6e8');
+  @include prompt('warning', '\e6e8');
+  @include prompt('danger', '\e6be');
 }
 
 kbd {
@@ -153,10 +162,9 @@ footer {
   }
 }
 
-/* fontawesome icons */
+/* iconfont icons */
 i {
-  &.far,
-  &.fas {
+  &.iconfont {
     @extend %no-cursor;
   }
 }
@@ -210,7 +218,21 @@ i {
   }
 }
 
-#access-lastmod {
+#access-links {
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    height: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    list-style: none;
+  }
+
   a {
     @extend %no-bottom-border;
 
@@ -641,6 +663,7 @@ main {
 
 /* Overwrite bootstrap tooltip */
 .tooltip-inner {
+/* Overrided BS4 Tooltip */
   font-size: 0.7rem;
   max-width: 220px;
   text-align: left;
@@ -744,7 +767,7 @@ $btn-mb: 0.5rem;
   }
 
   #avatar {
-    display: block;
+    display: inline-block;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
@@ -762,10 +785,9 @@ $btn-mb: 0.5rem;
 
   .profile-wrapper {
     @include mt-mb(2.5rem);
+    @include ml-mr(1.25rem);
     @extend %clickable-transition;
 
-    padding-left: 2.5rem;
-    padding-right: 1.25rem;
     width: 100%;
   }
 
@@ -821,12 +843,12 @@ $btn-mb: 0.5rem;
         i {
           font-size: 95%;
           opacity: 0.8;
-          margin-right: 1.5rem;
+          margin-right: 2rem;
         }
 
         span {
           font-size: 90%;
-          letter-spacing: 0.2px;
+          letter-spacing: 0.5rem;
         }
       }
 
@@ -1419,7 +1441,7 @@ search {
   }
 
   div.content .table-wrapper > table {
-    min-width: 70%;
+    min-width: 100%;
   }
 
   /* button 'back-to-Top' position */
@@ -1547,7 +1569,39 @@ search {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
       padding-left: 3.5rem;
-    }
+
+      &.text-center {
+        text-align: center !important;
+      }
+
+      #avatar {
+        display: inline-flex;
+        justify-content: center;
+
+        > a {
+          width: 6.2rem;
+          height: 6.2rem;
+
+          &.mx-auto {
+            margin: 0 !important;
+          }
+        }
+      }
+
+      .site-title {
+        margin-top: 0.4rem;
+
+        a {
+          font-size: 1.7rem;
+          letter-spacing: 1px;
+        }
+      }
+
+      .site-subtitle {
+        word-spacing: 0;
+        margin-top: 0;
+      }
+    } /* .profile-wrapper (min-width: 1650px) */
 
     ul {
       li.nav-item {
